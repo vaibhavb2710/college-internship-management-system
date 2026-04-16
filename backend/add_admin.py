@@ -1,3 +1,4 @@
+
 """
 Script to add an admin user to the database.
 Run: python add_admin.py
