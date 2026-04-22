@@ -17,6 +17,7 @@
 - ✅ CORS configuration
 - ✅ Error handling middleware
 
+
 ### Database (MongoDB)
 - ✅ MongoDB connection via PyMongo
 - ✅ Data models created
