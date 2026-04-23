@@ -51,6 +51,7 @@ import { adminService } from '@/services/admin';
 import { announcementService } from '@/services/announcement';
 
 // Admin Profile Data
+
 const adminProfile = {
   name: 'Amit Alyani',
   role: 'Institute Internship Coordinator',
