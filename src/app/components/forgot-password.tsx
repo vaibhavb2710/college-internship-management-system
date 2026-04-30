@@ -7,4 +7,7 @@ export function ForgotPassword() {
       </div>
     </div>
   );
+  
 }
+
+
