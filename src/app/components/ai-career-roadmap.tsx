@@ -33,6 +33,7 @@ const predefinedSkills: SkillTag[] = [
   { id: 'angular', label: 'Angular' }
 ];
 
+
 const skillsToLearn = [
   { id: 'ml', label: 'Machine Learning', icon: '🤖' },
   { id: 'webdev', label: 'Web Development', icon: '🌐' },
