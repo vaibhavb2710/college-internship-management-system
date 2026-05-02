@@ -24,7 +24,8 @@ import { toast } from 'sonner';
 import { employerService } from '@/services/employer';
 import { authService } from '@/services/auth';
 
-// Employer Profile Data
+
+// Employer Profile Data use
 const employerProfile = {
   name: 'Amit Patel',
   designation: 'Senior Tech Lead',
