@@ -17,6 +17,7 @@ internship_management
 mongodb://localhost:27017/internship_management
 ```
 
+
 ---
 
 ## Database Collections 📋
@@ -228,3 +229,4 @@ Stop-Service MongoDB
 **Last Updated:** March 3, 2026
 **Database Version:** MongoDB 8.2
 **Created By:** System Admin
+
