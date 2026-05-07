@@ -9,7 +9,7 @@ class User:
     @staticmethod
     def create(email, password, first_name, last_name, role, **kwargs):
         """Create a new user"""
-        # Hash password
+        # Hash passwords before storing them 
         hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
         
         user_data = {
