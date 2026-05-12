@@ -23,6 +23,7 @@ def create_app(config_name=None):
     mongo.init_app(app)
     
     # Create database indexes on app startup
+    
     with app.app_context():
         create_indexes()
     
@@ -34,6 +35,7 @@ def create_app(config_name=None):
             "supports_credentials": True
         }
     })
+    
     
     # Register blueprints
     from routes.auth import auth_bp
