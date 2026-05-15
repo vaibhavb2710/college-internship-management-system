@@ -149,6 +149,7 @@ function generateRoadmapSteps(skillToLearn: string, duration: string, currentSki
     }
   };
 
+
   const skill = skillData[skillToLearn] || skillData['ml'];
   
   // Filter steps based on duration
@@ -175,6 +176,7 @@ export function AICareerRoadmap() {
     skillToLearn: '',
     duration: ''
   });
+
 
   const [showSkillDropdown, setShowSkillDropdown] = useState(false);
 
@@ -220,6 +222,7 @@ export function AICareerRoadmap() {
     };
     return icons[iconName] || BookOpen;
   };
+  
 
   return (
     <section className="mb-8">
