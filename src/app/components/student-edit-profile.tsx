@@ -48,6 +48,7 @@ export function StudentEditProfile() {
     certifications: [],
   });
 
+
   useEffect(() => {
     const fetchProfile = async () => {
       try {
@@ -172,6 +173,7 @@ export function StudentEditProfile() {
         });
       }
 
+      
       // Convert certification files to base64 if new files selected
       let certificationsBase64 = formData.certifications;
       if (certificationsFiles.length > 0) {
