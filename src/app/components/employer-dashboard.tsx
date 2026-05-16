@@ -118,6 +118,7 @@ const StarRating = ({ rating, onChange, readonly = false }: { rating: number; on
                 : 'fill-gray-200 text-gray-300'
             }`}
           />
+
         </button>
       ))}
     </div>
@@ -136,6 +137,7 @@ export default function EmployerDashboard() {
   const [isDragging, setIsDragging] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
+
   // Evaluation Form State
   const [evaluationForm, setEvaluationForm] = useState({
     technicalSkills: 0,
@@ -147,6 +149,7 @@ export default function EmployerDashboard() {
     instituteFeedback: '',
     overallRating: 0
   });
+  
 
   const loadStudents = async () => {
     setStudentsLoading(true);
