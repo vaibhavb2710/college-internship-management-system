@@ -13,6 +13,7 @@ def add_admin_user():
     """Create an admin user."""
     app = create_app()
 
+    
     with app.app_context():
         try:
             admin_email = "admin@vit.edu.in"
