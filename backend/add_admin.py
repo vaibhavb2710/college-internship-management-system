@@ -4,6 +4,7 @@ Script to add an admin user to the database.
 Run: python add_admin.py
 """
 
+
 from app import create_app
 from models.user import User
 import sys
