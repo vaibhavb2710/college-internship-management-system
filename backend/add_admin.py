@@ -26,6 +26,7 @@ def add_admin_user():
                 print("Password: admin123")
                 return
 
+            
             print("Creating admin user...")
             User.create(
                 email=admin_email,
@@ -46,6 +47,7 @@ def add_admin_user():
         except Exception as error:
             print(f"[ERROR] Error creating admin user: {error}")
             sys.exit(1)
+
 
 
 if __name__ == "__main__":
