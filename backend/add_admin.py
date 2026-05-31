@@ -10,6 +10,7 @@ from models.user import User
 import sys
 
 
+
 def add_admin_user():
     """Create an admin user."""
     app = create_app()
