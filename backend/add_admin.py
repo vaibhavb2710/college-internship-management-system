@@ -5,6 +5,7 @@ Run: python add_admin.py
 """
 
 
+
 from app import create_app
 from models.user import User
 import sys
