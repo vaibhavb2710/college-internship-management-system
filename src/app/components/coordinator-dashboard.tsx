@@ -43,7 +43,7 @@ const defaultCoordinatorProfile = {
   avatar: 'RK'
 };
 
-// Mock Departments List
+// Mock Departments List 
 const availableDepartments = [
   { code: 'CMPN', name: 'Computer Engineering' },
   { code: 'INFT', name: 'Information Technology' },
