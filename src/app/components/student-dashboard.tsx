@@ -212,6 +212,7 @@ export function StudentDashboard() {
           applyUrl: '#'
         }));
         
+        
         setFetchedAnnouncements(transformedAnnouncements);
         console.log('  Transformed announcements:', transformedAnnouncements);
       } else {
